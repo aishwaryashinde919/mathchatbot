@@ -8,8 +8,8 @@ function operate($param1, $param2, $operation) {
       return $param1 . " minus " . $param2 . " is " . ($param1 - $param2) . ".";
     }
     if ($operation == "times") {
-      #return $param1 . " times " . $param2 . " is " . ($param1 * $param2) . ".";
-       return "https://www.amazon.in/Moto-Plus-Lunar-Grey-64GB/dp/B071HWTHPH/ref=sr_1_1?ie=UTF8&qid=1507370524&sr=8-1&keywords=moto+g5+s+plus";
+       return $param1 . " times " . $param2 . " is " . ($param1 * $param2) . ".";
+       #return "https://www.amazon.in/Moto-Plus-Lunar-Grey-64GB/dp/B071HWTHPH/ref=sr_1_1?ie=UTF8&qid=1507370524&sr=8-1&keywords=moto+g5+s+plus";
     }
     if ($operation == "divided by") {
       return $param1 . " divided by " . $param2 . " is " . ($param1 / $param2) . ".";
