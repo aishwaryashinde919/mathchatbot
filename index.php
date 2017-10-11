@@ -25,11 +25,12 @@ function operate($param1, $param2, $operation) {
   $operation = $parameters["operation"];
   $outString = operate($number1, $number2, $operation);
   header("Content-type: application/json");
+  $type1 = 3;
   $out = array(
     "speech" => $outString,
     "displayText" => $outString,
     "source" => "agent"
-    "type" => 3
+    "type" => $type1
     "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg"
   );
   echo(json_encode($out));
