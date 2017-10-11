@@ -24,15 +24,14 @@ function operate($param1, $param2, $operation) {
   $number2 = (int)$parameters["number-integer2"];
   $operation = $parameters["operation"];
   $outString = operate($number1, $number2, $operation);
-  header("Content-type: application/json");
-  $type1 = 3;
+  header("Content-type: application/json");  
   $out = array(
     "speech" => $outString,
     "displayText" => $outString,
     "source" => "agent",
-    "type" => $type1,
+    "type" => 1,
     "platform" => "facebook",
-    "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg"
+    "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg",    
   );
   echo(json_encode($out));
 
