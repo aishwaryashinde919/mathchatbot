@@ -25,9 +25,7 @@ function operate($param1, $param2, $operation) {
   $operation = $parameters["operation"];
   $outString = operate($number1, $number2, $operation);
   header("Content-type: application/json");  
-  $out = array(
-    "speech" => $outString,
-    "displayText" => $outString,
+  $out = array(   
     "source" => "agent",
     "type" => 1,
     "platform" => "facebook",
