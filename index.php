@@ -29,6 +29,8 @@ function operate($param1, $param2, $operation) {
     "speech" => $outString,
     "displayText" => $outString,
     "source" => "agent"
+    "type" => 3
+    "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg"
   );
   echo(json_encode($out));
 
