@@ -29,8 +29,8 @@ function operate($param1, $param2, $operation) {
   $out = array(
     "speech" => $outString,
     "displayText" => $outString,
-    "source" => "agent"
-    "type" => $type1
+    "source" => "agent",
+    "type" => $type1,
     "platform" => "facebook",
     "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg"
   );
