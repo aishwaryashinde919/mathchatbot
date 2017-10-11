@@ -27,7 +27,7 @@ function operate($param1, $param2, $operation) {
   header("Content-type: application/json");  
   $out = array(   
     "source" => "agent",
-    "type" => 1,
+    "type" => 3,
     "platform" => "facebook",
     "imageUrl" => "https://images-na.ssl-images-amazon.com/images/I/71hLfPtWi4L._SL1200_.jpg",    
   );
